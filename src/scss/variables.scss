@@ -1,0 +1,17 @@
+/* Device Dimensions */
+$media1                 :   480px;
+$media2                 :   767px;
+$media3                 :   991px;
+$media4                 :   1199px;
+$break-point            :   880px;
+
+/* Metric System */
+$unit					:	10px;
+
+/* Color */
+$culqi-color-black		:	#322D2A;
+$culqi-color-blue		:	#8A8685;
+
+/* Transition */
+$cubic-material         :   cubic-bezier(.55,0,.1,1);
+$cubic-transition       :   $cubic-material;

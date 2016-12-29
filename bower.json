@@ -1,0 +1,13 @@
+{
+  "name": "culqi-test",
+  "version": "0.0.1",
+  "dependencies": {
+    "bootstrap": "3.3.6",
+    "jquery": "1.11",
+    "datatables.net-bs":"1.10",
+    "angular":"1.6",
+    "angular-datatables":"https://github.com/l-lin/angular-datatables.git",
+    "font-awesome":"4.7"
+  },
+  "private": true
+}

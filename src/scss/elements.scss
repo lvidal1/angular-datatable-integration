@@ -1,0 +1,96 @@
+@import 'variables';
+@import 'mixins';
+/* Paper
+-------------------------------------------------- */
+.paper-1{
+    @include material-shadow(1);
+}
+.paper-2{
+    @include material-shadow(2);
+}
+.paper-3{
+    @include material-shadow(3);
+}
+.paper-4{
+    @include material-shadow(4);
+}
+.paper-5{
+    @include material-shadow(5);
+}
+
+/* Placement
+-------------------------------------------------- */
+
+@for $i from 1 through 20 {
+  .m-t-#{5*$i} { margin-top: 5px * $i; }
+  .m-r-#{5*$i} { margin-right: 5px * $i; }
+  .m-b-#{5*$i} { margin-bottom: 5px * $i; }
+  .m-l-#{5*$i} { margin-left: 5px * $i; }
+}
+@for $i from 1 through 10 {
+  .p-t-#{5*$i} { padding-top: 5px * $i; }
+  .p-r-#{5*$i} { padding-right: 5px * $i; }
+  .p-b-#{5*$i} { padding-bottom: 5px * $i; }
+  .p-l-#{5*$i} { padding-left: 5px * $i; }
+}
+
+@media (max-width: $media2){
+  .m-t-* { margin-top: 10px; }
+  .m-r-* { margin-right: 10px; }
+  .m-b-* { margin-bottom: 10px; }
+  .m-l-* { margin-left: 10px; }
+  .p-t-* { padding-top: 10px; }
+  .p-r-* { padding-right: 10px; }
+  .p-b-* { padding-bottom: 10px; }
+  .p-l-* { padding-left: 10px; }
+}
+
+
+/* Input 
+-------------------------------------------------- */
+.culqi-input{
+  &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: lighten($culqi-color-black,35%);
+  }
+  &::-moz-placeholder { /* Firefox 19+ */
+    color: lighten($culqi-color-black,35%);
+  }
+  &:-ms-input-placeholder { /* IE 10+ */
+    color: lighten($culqi-color-black,35%);
+  }
+  &:-moz-placeholder { /* Firefox 18- */
+    color: lighten($culqi-color-black,35%);
+  }
+}
+
+
+/* Image-centering 
+-------------------------------------------------- */
+.image-centering{
+  position: relative;
+  overflow:hidden;
+  >img{
+    @include transition(250ms,$cubic-transition);
+    opacity:0;
+    &.full-width{
+      width:100% !important;
+      height:auto !important;
+    }
+    &.full-height{
+      height:100% !important;
+      width:auto !important;
+    }
+  }
+}
+
+/* Container 
+-------------------------------------------------- */
+.container-page{
+  @include new-container(940px,750px);
+}
+.content-medium{
+  @include new-container(750px);
+}
+.content-small{
+  @include new-container(600px);
+}

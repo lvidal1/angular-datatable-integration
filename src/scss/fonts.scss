@@ -1,0 +1,9 @@
+@include font-face("Microsoft", fonts/Microsoft);
+@include font-face("Bebas", fonts/Microsoft);
+@include font-face("Monofonto", fonts/Microsoft);
+@include font-face("Consolas", fonts/Microsoft);
+@include font-face("Gothic", fonts/Microsoft);
+
+body{
+	font-family: 'Microsoft';
+}

@@ -1,0 +1,165 @@
+body{
+	padding-top:40px;
+}
+
+header{
+	#navigation-bar{
+		min-height: 40px;
+		&.nav-black{
+			background-color: $culqi-color-black;
+			color : $culqi-color-blue;
+			ul{
+				>li{
+					>a{
+						color : $culqi-color-blue;
+						padding: 10px 15px;
+						font-size:13px;
+					}
+				}
+			}
+			.navbar-brand{
+				padding: 7px 0;
+				height: 40px;
+				min-width: 220px;
+				margin-left: 0;
+				.form-search-wrap {
+				    width: 100%;
+				    position: relative;
+				    padding-right: 25px;
+				    height: 24px;
+				}
+			}
+			#btnToggleNav{
+				border-color: $culqi-color-blue;
+				&:hover,&:focus{
+					background-color: $culqi-color-blue;
+					 .icon-bar{
+
+						background-color: $culqi-color-black;
+					 }
+				}
+			}
+		}
+	}
+}
+
+#header {
+    width: 100%;
+    padding: 80px 0px 0px;
+    .brand-logo {
+        width: 150px;
+        margin: 0 auto;
+        img{
+        	width:100%;
+        }
+    }
+}
+
+
+
+#app{
+	min-height: 700px;
+}
+
+footer{
+	min-height: 200px;
+	width:100%;
+	background-color: $culqi-color-black;
+	.footer-links{
+		padding: 60px 50px 50px;
+	}
+	.col-footer{
+		font-size:15px;
+	}
+	.col-head {
+	    text-transform: uppercase;
+	    color: lighten($culqi-color-blue,2%);
+	    margin-bottom:6px;
+	}
+	.col-body {
+		ul{
+			list-style-type: none;
+			padding: 0px;
+			li{
+				a{
+					color: white;
+				}
+			}	
+		}
+	}
+	.page-links{
+		li{
+			height: 18px;
+			a{
+
+			}
+		}
+	}
+	.footer-copyright{
+		border-top:1px solid white;
+		padding: 8px 15px;
+    	font-size: 12px;
+		.copy-text{
+			text-transform: uppercase;
+			color: white;
+		}
+	}
+}
+
+@media (max-width: $media3){
+	footer{
+		.col-footer{
+			text-align:center;
+			margin-bottom:15px;
+		}
+		.page-links{
+			li{
+				margin-bottom:10px;
+				a{
+
+				}
+			}
+		}
+	}
+}
+
+
+
+@media (max-width: $media2){
+	header{
+		#navigation-bar{
+			&.nav-black{
+				.navbar-brand {
+				    padding: 13px 15px;
+				    height: 50px;
+				}
+			}
+		}
+
+	}
+	#header{
+		padding: 100px 0px 0px;
+		.nav-menu{
+			ul{
+				li {
+					   margin-bottom: 10px;
+				}
+			}
+		}
+	}
+
+	footer{
+		.col-footer{
+		}
+		.asociated-links{
+			li{
+				margin-bottom:20px;
+				display:block !important;
+				width:100%;
+				a{
+					width:200px;
+				}
+			}
+		}
+	}
+}
