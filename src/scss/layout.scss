@@ -41,6 +41,68 @@ header{
 }
 
 /*
+ * Layout - elements
+ * --------------------------------------
+ */
+
+/* Button Call to action 
+-------------------------------------------------- */
+.btn-call-to-action {
+    float: left;
+    margin-left: 4px;
+    .btn {
+        padding: 14px 18px;
+        border: 2px solid #c1c1c1;
+        background-color: #f3f3f3;
+    }
+}
+
+@media (max-width: $media2){
+  .btn-call-to-action {
+      .btn {
+          padding: 9px 7px;
+      }
+  }
+
+}
+
+.btn-culqi{
+  background-color:$culqi-color-blue;
+  border:none !Important;
+  color:white;
+  &:hover,&:focus{
+    background-color:darken($culqi-color-blue,5%);
+    color:white;
+  }
+
+}
+.btn-danger{
+  background-color:$culqi-color-red ;
+  border:none !Important;
+  color:white;
+}
+
+
+/* Toggle device object
+-------------------------------------------------- */
+.box-desktop{
+  display:inline-block;
+}
+.box-mobile{
+  display:none;
+}
+
+@media (max-width: $media2){
+  .box-desktop{
+    display:none;
+  }
+  .box-mobile{
+    display:inline-block;
+  }
+
+}
+
+/*
  * View - Charges lists
  * --------------------------------------
  */

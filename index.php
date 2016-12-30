@@ -1,5 +1,7 @@
 <?php
     # ############### CARGA DE CONSTANTES Y LIBRERIAS ################ #
+    error_reporting(0);
+    @ini_set('display_errors', 0);
     define(DS, DIRECTORY_SEPARATOR);
     define(SRC_ROOT, "src");
     define(DIST_ROOT, "dist");
@@ -246,7 +248,7 @@
     <script src="<?php echo BOWER_ROOT;?>/progressbar/dist/progressbar.js"></script>
 
     <!-- JS of the page -->
-    <script type="text/javascript" src="<?php echo SRC_ROOT;?>/js/appController.js"></script>
+    <script type="text/javascript" src="<?php echo DIST_ROOT;?>/js/app.min.js"></script>
 
 </body>
 
