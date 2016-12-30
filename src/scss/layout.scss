@@ -559,4 +559,26 @@ header{
 	    width: 100%;
 	    margin-bottom: 20px;
 	}
+	.modal{
+		.general-info {
+		    padding: 0;
+		    .main-info{
+		    	position:relative;
+		    	width:100%;
+		    	height: auto;
+		    }
+		    .card-info {
+		        padding-right: 0;
+		        height: 100%;
+		        width: 248px;
+		        margin: 0 auto 20px;
+		    }
+		    .state-info {
+		    	position:relative;
+		    	width: 140px;
+		    	margin: 0 auto;
+		    }
+		}
+	}
+	
 }

@@ -248,7 +248,7 @@
     <script src="<?php echo BOWER_ROOT;?>/progressbar/dist/progressbar.js"></script>
 
     <!-- JS of the page -->
-    <script type="text/javascript" src="<?php echo DIST_ROOT;?>/js/app.min.js"></script>
+    <script type="text/javascript" src="<?php echo SRC_ROOT;?>/js/app.js"></script>
 
 </body>
 
