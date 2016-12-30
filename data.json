@@ -1,0 +1,558 @@
+{
+  "draw": "1",
+  "recordsTotal": 100,
+  "recordsFiltered": 100,
+  "data": [
+    {
+      "duplicated": null,
+      "id": null,
+      "amount": 19900,
+      "current_amount": 19900,
+      "net_amount": null,
+      "product_description": "Venta de prueba",
+      "date": 1475173499000,
+      "fraud_score": 61.47,
+      "installments": 0,
+      "installments_amount": null,
+      "reference_code": null,
+      "response_code": "operacion_denegada",
+      "merchant_message": "Fecha de Expiracion Invalida.",
+      "user_message": "La fecha de expiración de su tarjeta es inválida. Intente nuevamente ó utilice otra tarjeta.",
+      "device_ip": "179.7.112.139",
+      "device_country": null,
+      "country_ip": null,
+      "product": "token",
+      "state": "Rechazada",
+      "client": {
+        "country_code": "PE",
+        "first_name": "Brayan",
+        "last_name": "Cruces",
+        "address_city": "Lima",
+        "address": "Avenida Lima 1232",
+        "email": "brayan.cruces@culqi.com",
+        "phone": "3333339",
+        "object": "client"
+      },
+      "token": {
+        "id": null,
+        "card_number": "411111******1111",
+        "cardholder": {
+          "first_name": "Brayan",
+          "email": "brayan.cruces@culqi.com",
+          "last_name": "Cruces",
+          "object": "cardholder"
+        },
+        "brand_name": "Visa",
+        "bank_name": "JPMORGAN CHASE BANK, N.A.",
+        "bank_country": "United States",
+        "object": "token"
+      },
+      "fees": [],
+      "object": "charge"
+    },
+    {
+      "duplicated": null,
+      "id": null,
+      "amount": 1000,
+      "current_amount": 1000,
+      "net_amount": 955,
+      "product_description": "Venta de prueba.",
+      "date": 1474491847000,
+      "fraud_score": 37.57,
+      "installments": 0,
+      "installments_amount": null,
+      "reference_code": null,
+      "response_code": "venta_exitosa",
+      "merchant_message": "La operación de venta ha sido autorizada exitosamente",
+      "user_message": "Su compra ha sido exitosa.",
+      "device_ip": "200.48.22.49",
+      "device_country": "Perú",
+      "country_ip": null,
+      "product": "web",
+      "state": "Exitosa",
+      "client": {
+        "country_code": "PE",
+        "first_name": "William",
+        "last_name": "Muro",
+        "address_city": "Lima",
+        "address": "Avenida Lima 1234",
+        "email": "soporte@culqi.com",
+        "phone": "12345",
+        "object": "client"
+      },
+      "token": {
+        "id": null,
+        "card_number": "411111******1111",
+        "cardholder": {
+          "first_name": "Luis",
+          "email": "lgonzales@me.com",
+          "last_name": "Gonzales",
+          "object": "cardholder"
+        },
+        "brand_name": "Visa",
+        "bank_name": "JPMORGAN CHASE BANK, N.A.",
+        "bank_country": "United States",
+        "object": "token"
+      },
+      "fees": [
+        {
+          "type": "comision_porcentual",
+          "amount": 38,
+          "taxes": 7,
+          "total_amount": 45,
+          "currency_code": "PEN",
+          "object": "fee"
+        }
+      ],
+      "object": "charge"
+    },
+    {
+      "duplicated": null,
+      "id": null,
+      "amount": 19900,
+      "current_amount": 19900,
+      "net_amount": 19020,
+      "product_description": "Venta de prueba",
+      "date": 1475171210000,
+      "fraud_score": 46.7,
+      "installments": 0,
+      "installments_amount": null,
+      "reference_code": null,
+      "response_code": "venta_exitosa",
+      "merchant_message": "La operación de venta ha sido autorizada exitosamente",
+      "user_message": "Su compra ha sido exitosa.",
+      "device_ip": "179.7.112.139",
+      "device_country": null,
+      "country_ip": null,
+      "product": "token",
+      "state": "Exitosa",
+      "client": {
+        "country_code": "PE",
+        "first_name": "Brayan",
+        "last_name": "Cruces",
+        "address_city": "Lima",
+        "address": "Avenida Lima 1232",
+        "email": "brayan.cruces@culqi.com",
+        "phone": "3333339",
+        "object": "client"
+      },
+      "token": {
+        "id": null,
+        "card_number": "411111******1111",
+        "cardholder": {
+          "first_name": "Brayan",
+          "email": "brayan.cruces@culqi.com",
+          "last_name": "Cruces",
+          "object": "cardholder"
+        },
+        "brand_name": "Visa",
+        "bank_name": "JPMORGAN CHASE BANK, N.A.",
+        "bank_country": "United States",
+        "object": "token"
+      },
+      "fees": [
+        {
+          "type": "comision_porcentual",
+          "amount": 746,
+          "taxes": 134,
+          "total_amount": 880,
+          "currency_code": "PEN",
+          "object": "fee"
+        }
+      ],
+      "object": "charge"
+    },
+    {
+      "duplicated": null,
+      "id": null,
+      "amount": 19900,
+      "current_amount": 19900,
+      "net_amount": 19020,
+      "product_description": "Venta de prueba",
+      "date": 1475171377000,
+      "fraud_score": 58.56,
+      "installments": 0,
+      "installments_amount": null,
+      "reference_code": null,
+      "response_code": "venta_exitosa",
+      "merchant_message": "La operación de venta ha sido autorizada exitosamente",
+      "user_message": "Su compra ha sido exitosa.",
+      "device_ip": "179.7.112.139",
+      "device_country": null,
+      "country_ip": null,
+      "product": "token",
+      "state": "Exitosa",
+      "client": {
+        "country_code": "PE",
+        "first_name": "Brayan",
+        "last_name": "Cruces",
+        "address_city": "Lima",
+        "address": "Avenida Lima 1232",
+        "email": "brayan.cruces@culqi.com",
+        "phone": "3333339",
+        "object": "client"
+      },
+      "token": {
+        "id": null,
+        "card_number": "411111******1111",
+        "cardholder": {
+          "first_name": "Brayan",
+          "email": "brayan.cruces@culqi.com",
+          "last_name": "Cruces",
+          "object": "cardholder"
+        },
+        "brand_name": "Visa",
+        "bank_name": "JPMORGAN CHASE BANK, N.A.",
+        "bank_country": "United States",
+        "object": "token"
+      },
+      "fees": [
+        {
+          "type": "comision_porcentual",
+          "amount": 746,
+          "taxes": 134,
+          "total_amount": 880,
+          "currency_code": "PEN",
+          "object": "fee"
+        }
+      ],
+      "object": "charge"
+    },
+    {
+      "duplicated": null,
+      "id": null,
+      "amount": 19900,
+      "current_amount": 19900,
+      "net_amount": 19020,
+      "product_description": "Venta de prueba",
+      "date": 1475171489000,
+      "fraud_score": 61.71,
+      "installments": 0,
+      "installments_amount": null,
+      "reference_code": null,
+      "response_code": "venta_exitosa",
+      "merchant_message": "La operación de venta ha sido autorizada exitosamente",
+      "user_message": "Su compra ha sido exitosa.",
+      "device_ip": "179.7.112.139",
+      "device_country": null,
+      "country_ip": null,
+      "product": "token",
+      "state": "Exitosa",
+      "client": {
+        "country_code": "PE",
+        "first_name": "Brayan",
+        "last_name": "Cruces",
+        "address_city": "Lima",
+        "address": "Avenida Lima 1232",
+        "email": "brayan.cruces@culqi.com",
+        "phone": "3333339",
+        "object": "client"
+      },
+      "token": {
+        "id": null,
+        "card_number": "411111******1111",
+        "cardholder": {
+          "first_name": "Brayan",
+          "email": "brayan.cruces@culqi.com",
+          "last_name": "Cruces",
+          "object": "cardholder"
+        },
+        "brand_name": "Visa",
+        "bank_name": "JPMORGAN CHASE BANK, N.A.",
+        "bank_country": "United States",
+        "object": "token"
+      },
+      "fees": [
+        {
+          "type": "comision_porcentual",
+          "amount": 746,
+          "taxes": 134,
+          "total_amount": 880,
+          "currency_code": "PEN",
+          "object": "fee"
+        }
+      ],
+      "object": "charge"
+    },
+    {
+      "duplicated": null,
+      "id": null,
+      "amount": 19900,
+      "current_amount": 19900,
+      "net_amount": 19020,
+      "product_description": "Venta de prueba",
+      "date": 1475173067000,
+      "fraud_score": 63.17,
+      "installments": 0,
+      "installments_amount": null,
+      "reference_code": null,
+      "response_code": "venta_exitosa",
+      "merchant_message": "La operación de venta ha sido autorizada exitosamente",
+      "user_message": "Su compra ha sido exitosa.",
+      "device_ip": "179.7.112.139",
+      "device_country": null,
+      "country_ip": null,
+      "product": "token",
+      "state": "Exitosa",
+      "client": {
+        "country_code": "PE",
+        "first_name": "Brayan",
+        "last_name": "Cruces",
+        "address_city": "Lima",
+        "address": "Avenida Lima 1232",
+        "email": "brayan.cruces@culqi.com",
+        "phone": "3333339",
+        "object": "client"
+      },
+      "token": {
+        "id": null,
+        "card_number": "411111******1111",
+        "cardholder": {
+          "first_name": "Brayan",
+          "email": "brayan.cruces@culqi.com",
+          "last_name": "Cruces",
+          "object": "cardholder"
+        },
+        "brand_name": "Visa",
+        "bank_name": "JPMORGAN CHASE BANK, N.A.",
+        "bank_country": "United States",
+        "object": "token"
+      },
+      "fees": [
+        {
+          "type": "comision_porcentual",
+          "amount": 746,
+          "taxes": 134,
+          "total_amount": 880,
+          "currency_code": "PEN",
+          "object": "fee"
+        }
+      ],
+      "object": "charge"
+    },
+    {
+      "duplicated": null,
+      "id": null,
+      "amount": 19900,
+      "current_amount": 19900,
+      "net_amount": 19020,
+      "product_description": "Venta de prueba",
+      "date": 1475173260000,
+      "fraud_score": 60.32,
+      "installments": 0,
+      "installments_amount": null,
+      "reference_code": null,
+      "response_code": "venta_exitosa",
+      "merchant_message": "La operación de venta ha sido autorizada exitosamente",
+      "user_message": "Su compra ha sido exitosa.",
+      "device_ip": "179.7.112.139",
+      "device_country": null,
+      "country_ip": null,
+      "product": "token",
+      "state": "Exitosa",
+      "client": {
+        "country_code": "PE",
+        "first_name": "Brayan",
+        "last_name": "Cruces",
+        "address_city": "Lima",
+        "address": "Avenida Lima 1232",
+        "email": "brayan.cruces@culqi.com",
+        "phone": "3333339",
+        "object": "client"
+      },
+      "token": {
+        "id": null,
+        "card_number": "411111******1111",
+        "cardholder": {
+          "first_name": "Brayan",
+          "email": "brayan.cruces@culqi.com",
+          "last_name": "Cruces",
+          "object": "cardholder"
+        },
+        "brand_name": "Visa",
+        "bank_name": "JPMORGAN CHASE BANK, N.A.",
+        "bank_country": "United States",
+        "object": "token"
+      },
+      "fees": [
+        {
+          "type": "comision_porcentual",
+          "amount": 746,
+          "taxes": 134,
+          "total_amount": 880,
+          "currency_code": "PEN",
+          "object": "fee"
+        }
+      ],
+      "object": "charge"
+    },
+    {
+      "duplicated": null,
+      "id": null,
+      "amount": 19900,
+      "current_amount": 19900,
+      "net_amount": 19020,
+      "product_description": "Venta de prueba",
+      "date": 1475174060000,
+      "fraud_score": 72.28,
+      "installments": 0,
+      "installments_amount": null,
+      "reference_code": null,
+      "response_code": "venta_exitosa",
+      "merchant_message": "La operación de venta ha sido autorizada exitosamente",
+      "user_message": "Su compra ha sido exitosa.",
+      "device_ip": "179.7.112.139",
+      "device_country": null,
+      "country_ip": null,
+      "product": "token",
+      "state": "Exitosa",
+      "client": {
+        "country_code": "PE",
+        "first_name": "Brayan",
+        "last_name": "Cruces",
+        "address_city": "Lima",
+        "address": "Avenida Lima 1232",
+        "email": "brayan.cruces@culqi.com",
+        "phone": "3333339",
+        "object": "client"
+      },
+      "token": {
+        "id": null,
+        "card_number": "411111******1111",
+        "cardholder": {
+          "first_name": "Brayan",
+          "email": "brayan.cruces@culqi.com",
+          "last_name": "Cruces",
+          "object": "cardholder"
+        },
+        "brand_name": "Visa",
+        "bank_name": "JPMORGAN CHASE BANK, N.A.",
+        "bank_country": "United States",
+        "object": "token"
+      },
+      "fees": [
+        {
+          "type": "comision_porcentual",
+          "amount": 746,
+          "taxes": 134,
+          "total_amount": 880,
+          "currency_code": "PEN",
+          "object": "fee"
+        }
+      ],
+      "object": "charge"
+    },
+    {
+      "duplicated": null,
+      "id": null,
+      "amount": 19900,
+      "current_amount": 19900,
+      "net_amount": 19020,
+      "product_description": "Venta de prueba",
+      "date": 1475174167000,
+      "fraud_score": 60.32,
+      "installments": 0,
+      "installments_amount": null,
+      "reference_code": null,
+      "response_code": "venta_exitosa",
+      "merchant_message": "La operación de venta ha sido autorizada exitosamente",
+      "user_message": "Su compra ha sido exitosa.",
+      "device_ip": "179.7.112.139",
+      "device_country": null,
+      "country_ip": null,
+      "product": "token",
+      "state": "Exitosa",
+      "client": {
+        "country_code": "PE",
+        "first_name": "Brayan",
+        "last_name": "Cruces",
+        "address_city": "Lima",
+        "address": "Avenida Lima 1232",
+        "email": "brayan.cruces@culqi.com",
+        "phone": "3333339",
+        "object": "client"
+      },
+      "token": {
+        "id": null,
+        "card_number": "411111******1111",
+        "cardholder": {
+          "first_name": "Brayan",
+          "email": "brayan.cruces@culqi.com",
+          "last_name": "Cruces",
+          "object": "cardholder"
+        },
+        "brand_name": "Visa",
+        "bank_name": "JPMORGAN CHASE BANK, N.A.",
+        "bank_country": "United States",
+        "object": "token"
+      },
+      "fees": [
+        {
+          "type": "comision_porcentual",
+          "amount": 746,
+          "taxes": 134,
+          "total_amount": 880,
+          "currency_code": "PEN",
+          "object": "fee"
+        }
+      ],
+      "object": "charge"
+    },
+    {
+      "duplicated": null,
+      "id": null,
+      "amount": 19900,
+      "current_amount": 19900,
+      "net_amount": 19020,
+      "product_description": "Venta de prueba",
+      "date": 1475174328000,
+      "fraud_score": 61.47,
+      "installments": 0,
+      "installments_amount": null,
+      "reference_code": null,
+      "response_code": "venta_exitosa",
+      "merchant_message": "La operación de venta ha sido autorizada exitosamente",
+      "user_message": "Su compra ha sido exitosa.",
+      "device_ip": "179.7.112.139",
+      "device_country": null,
+      "country_ip": null,
+      "product": "token",
+      "state": "Exitosa",
+      "client": {
+        "country_code": "PE",
+        "first_name": "Brayan",
+        "last_name": "Cruces",
+        "address_city": "Lima",
+        "address": "Avenida Lima 1232",
+        "email": "brayan.cruces@culqi.com",
+        "phone": "3333339",
+        "object": "client"
+      },
+      "token": {
+        "id": null,
+        "card_number": "411111******1111",
+        "cardholder": {
+          "first_name": "Brayan",
+          "email": "brayan.cruces@culqi.com",
+          "last_name": "Cruces",
+          "object": "cardholder"
+        },
+        "brand_name": "Visa",
+        "bank_name": "JPMORGAN CHASE BANK, N.A.",
+        "bank_country": "United States",
+        "object": "token"
+      },
+      "fees": [
+        {
+          "type": "comision_porcentual",
+          "amount": 746,
+          "taxes": 134,
+          "total_amount": 880,
+          "currency_code": "PEN",
+          "object": "fee"
+        }
+      ],
+      "object": "charge"
+    }
+  ]
+}

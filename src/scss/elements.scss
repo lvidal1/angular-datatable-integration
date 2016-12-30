@@ -64,33 +64,62 @@
 }
 
 
-/* Image-centering 
+
+/* Button Call to action 
 -------------------------------------------------- */
-.image-centering{
-  position: relative;
-  overflow:hidden;
-  >img{
-    @include transition(250ms,$cubic-transition);
-    opacity:0;
-    &.full-width{
-      width:100% !important;
-      height:auto !important;
+.btn-call-to-action {
+    float: left;
+    margin-left: 4px;
+    .btn {
+        padding: 14px 18px;
+        border: 2px solid #c1c1c1;
+        background-color: #f3f3f3;
     }
-    &.full-height{
-      height:100% !important;
-      width:auto !important;
-    }
-  }
 }
 
-/* Container 
+@media (max-width: $media2){
+  .btn-call-to-action {
+      .btn {
+          padding: 9px 7px;
+      }
+  }
+
+}
+
+.btn-culqi{
+  background-color:$culqi-color-blue;
+  border:none !Important;
+  color:white;
+  &:hover,&:focus{
+    background-color:darken($culqi-color-blue,5%);
+    color:white;
+  }
+
+}
+.btn-danger{
+  background-color:$culqi-color-red ;
+  border:none !Important;
+  color:white;
+}
+
+
+
+
+/* Toggle device object
 -------------------------------------------------- */
-.container-page{
-  @include new-container(940px,750px);
+.box-desktop{
+  display:inline-block;
 }
-.content-medium{
-  @include new-container(750px);
+.box-mobile{
+  display:none;
 }
-.content-small{
-  @include new-container(600px);
+
+@media (max-width: $media2){
+  .box-desktop{
+    display:none;
+  }
+  .box-mobile{
+    display:inline-block;
+  }
+
 }

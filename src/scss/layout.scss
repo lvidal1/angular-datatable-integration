@@ -1,3 +1,7 @@
+/*
+ * Layout - general
+ * --------------------------------------
+ */
 body{
 	padding-top:40px;
 }
@@ -8,36 +12,17 @@ header{
 		&.nav-black{
 			background-color: $culqi-color-black;
 			color : $culqi-color-blue;
-			ul{
-				>li{
-					>a{
-						color : $culqi-color-blue;
-						padding: 10px 15px;
-						font-size:13px;
-					}
-				}
+			.navbar-header{
+				width: 100%;
 			}
 			.navbar-brand{
-				padding: 7px 0;
 				height: 40px;
+				width: 100%;
 				min-width: 220px;
 				margin-left: 0;
-				.form-search-wrap {
-				    width: 100%;
-				    position: relative;
-				    padding-right: 25px;
-				    height: 24px;
-				}
-			}
-			#btnToggleNav{
-				border-color: $culqi-color-blue;
-				&:hover,&:focus{
-					background-color: $culqi-color-blue;
-					 .icon-bar{
-
-						background-color: $culqi-color-black;
-					 }
-				}
+				padding: 10px 0px 5px !Important;
+				text-align: center;
+				color: white;
 			}
 		}
 	}
@@ -55,56 +40,359 @@ header{
     }
 }
 
-
-
+/*
+ * View - Charges lists
+ * --------------------------------------
+ */
 #app{
 	min-height: 700px;
+	margin-bottom:60px;
+	.page-title {
+	    position: relative;
+	    margin: 50px 0;
+	    .title {
+    	    position: relative;
+    	    font-family: 'GothamRounded-Book';
+    	    .logo-page {
+	    	    width: 36px;
+	    	    display: inline-block;
+	    	    vertical-align: top;
+	    	    img {
+    	    	    width: 100%;
+    	    	}
+	    	}
+	    	.text {
+    		    display: inline-block;
+    		    font-size: 45px;
+    		    vertical-align: top;
+    		}
+    	}
+    	.call-to-action {
+    	    position: absolute;
+    	    right: 0;
+    	    top: 0;
+    	}
+	}
 }
 
-footer{
-	min-height: 200px;
-	width:100%;
-	background-color: $culqi-color-black;
-	.footer-links{
-		padding: 60px 50px 50px;
-	}
-	.col-footer{
-		font-size:15px;
-	}
-	.col-head {
-	    text-transform: uppercase;
-	    color: lighten($culqi-color-blue,2%);
-	    margin-bottom:6px;
-	}
-	.col-body {
-		ul{
-			list-style-type: none;
-			padding: 0px;
-			li{
-				a{
-					color: white;
-				}
-			}	
+/*
+ * View - Modal detail
+ * --------------------------------------
+ */
+.modal{
+	.modal-header{
+		padding: 10px 15px;	
+		.close{
+			position: absolute;
+			z-index: 2;
+			top: 20px;
+			right: 15px;
 		}
 	}
-	.page-links{
-		li{
-			height: 18px;
-			a{
+    .title {
+	    position: relative;
+	    font-family: 'GothamRounded-Book';
+	    margin: 5px 0 0;
+	    .logo-page {
+    	    height: 30px;
+    	    display: inline-block;
+    	    vertical-align: top;
+    	    img {
+	    	    height: 100%;
+	    	}
+    	}
+    	.text {
+		    display: inline-block;
+		    font-size: 18px;
+		    vertical-align: top;
+		    padding: 8px 0px;
+		}
+		.bread-separator {
+		    padding: 5px 0px;
+		    display: inline-block;
+		}
+		.object {
+		    border: 2px solid #c1c1c1;
+		    padding: 6px 7px 4px;
+		    margin-right: 5px;
+		    border-radius: 6px;
+		    font-weight: bold;
+		    color: #8c8b8b;
+		    text-transform: uppercase;
+		    font-family: 'GothamRounded-Book';
+		    font-size: 13px;
 
+		}
+	}
+	.call-to-action {
+	     display: inline-block;
+	}
+	.general-info {
+	    padding: 0 30px;
+	    position: relative;
+	    margin-bottom:20px;
+	    .main-info{
+	    	position:relative;
+	    	width:100%;
+	    	height: 60px;
+	    }
+	    .card-info {
+	        padding-right: 140px;
+	        height: 100%;
+	        .wrap{
+	        	position:relative;
+	        	height: 100%;
+	        }
+	        .image-card {
+	            position: absolute;
+	            overflow: hidden;
+	            height: 100%;
+	            width: 50px;
+	            display: table;
+	            vertical-align: middle;
+	            .wrap-align{
+	            	width:100%;
+	            	height:100%;
+	            	display: table-cell;
+	            	vertical-align: middle;
+		            img {
+	    	            width: 100%;
+	    	            display: table-cell;
+	    	        }
+	            }
+	            
+	        }
+
+	        .text-card {
+	            padding-left: 70px;
+	            span {
+    	            display: block;
+    	        }
+	        }
+	        .number-card {
+	            font-weight: bold;
+	            font-size: 15px;
+	        }
+
+	    }
+	    .state-info {
+	        position: absolute;
+	        top: 0;
+	        right: 0;
+	        height: 100%;
+	        display:table;
+	        vertical-align: middle;
+	        .wrap{
+	        	display: table-cell;
+	        	vertical-align: middle;
+	        }
+	        .state-label {
+	            width: 100%;
+	            border: 1px solid gray;
+	            border-radius: 18px;
+	            padding: 9px;
+	            .hightlight {
+	                width: 10px;
+	                height: 10px;
+	                background-color: $culqi-color-gray;
+	                display: inline-block;
+	                border-radius: 50%;
+	                margin-top: 5px;
+	                &.state-success {
+    	                background-color:$culqi-color-blue;
+    	            }
+    	            &.state-failed {
+    	                background-color:$culqi-color-red;
+    	            }
+	            }
+	        }
+	    }
+
+	    .state-message {
+	        width: 100%;
+	        text-align: center;
+	        padding: 10px 0 5px;
+	        font-weight: bold;
+	        font-size: 16px;
+	    }
+
+	    .modal-divider{
+	    	width:100%;
+	    }
+	}
+
+	.detail-info{
+		p {
+		   font-weight: bold;
+		}
+		.field {
+			font-weight: bold;
+		}
+		.description{
+			padding:5px 15px 10px;
+			.field{
+				float:left;
+			}
+			.value{
+				float:right;
 			}
 		}
 	}
-	.footer-copyright{
-		border-top:1px solid white;
-		padding: 8px 15px;
-    	font-size: 12px;
-		.copy-text{
+
+	.modal-divider{
+		height:1px;
+		width:90%;
+		background-color:#E5E5E5;
+		margin: 15px auto 10px;
+	}
+
+}
+
+/*
+ * Datetable custom style
+ * --------------------------------------
+ */
+
+.table{
+	margin-bottom: 0 !important;
+	width:100% !important;
+	th,td{
+		text-align: center;
+		vertical-align:middle !important;
+		border: none !important;
+		font-size:13px !Important;
+		font-size: 16px !Important;
+	}
+	th{
+		border-top: 2px solid $culqi-color-gray !important;
+	}
+	td{
+		cursor:pointer;
+		.productMeta-made {
+		    border: 2px solid #c1c1c1;
+		    padding: 6px 7px 4px;
+		    border-radius: 6px;
+		    font-weight: bold;
+		    color: #8c8b8b;
+		    text-transform: uppercase;
+		    font-family: 'GothamRounded-Book';
+		    font-size: 13px;
+		}
+
+		.tokenBrand-made {
+		    width: 30px;
+		    display: inline-block;
+		    img {
+		        width: 100%;
+		    }
+		}
+
+		.progressFraudScore{
+			width: 40px;
+			height: 40px;
+			margin: 0 auto;
+			position: relative;
+		}
+
+
+		.state-made{
 			text-transform: uppercase;
-			color: white;
+			font-weight:bold;
+			font-size: 14px;
+			&.state-failed{
+				color: $culqi-color-red;
+			}
+			&.state-success{
+				color: $culqi-color-blue;
+			}
 		}
 	}
 }
+.dataTables_wrapper{
+	position: relative;
+	.dataTables_processing {
+	    position: absolute;
+	    top: 0;
+	    width: 100%;
+	    border-radius: 0px;
+	    box-shadow: none;
+	    background: transparent;
+
+
+	    .loader {
+	      height: 4px;
+	      width: 100%;
+	      position: relative;
+	      overflow: hidden;
+	      &:before{
+	        display: block;
+	        position: absolute;
+	        content: "";
+	        left: -200px;
+	        width: 200px;
+	        height: 4px;
+	        background-color: $culqi-color-blue;
+	        animation: loading 2s linear infinite;
+	      }
+	    }
+
+	    .loader-text {
+	        width: 100%;
+	        text-align: center;
+	        padding: 17px;
+	        background-color: white;
+	        opacity: 0.5;
+	        font-weight: bold;
+	    }
+
+	}
+	.top {
+	    height: 58px;
+	    padding: 19px 0px;
+	    border-top: 2px solid lighten($culqi-color-gray,10%);
+	}
+	.bottom{
+		margin-top: 15px;
+		height: 58px;
+		padding: 19px 0px;
+		.dataTables_paginate{
+
+		}
+	}
+
+	.dataTables_info {
+	    float: left;
+	}
+	.dataTables_paginate {
+	    float: right;
+	}
+
+	.paginate_button {
+	    padding: 9px 15px;
+	    color: #757575;
+	    background-color: #f3f3f3;
+	    margin-left: 3px;
+	    border-radius: 2px;
+	    cursor:pointer;
+	    &.current,&:hover,&:focus {
+    	    background-color: $culqi-color-blue;
+    	    color: white;
+    	}
+	}
+}
+@keyframes loading {
+    from {left: -200px; width: 30%;}
+    50% {width: 30%;}
+    70% {width: 70%;}
+    80% { left: 50%;}
+    95% {left: 120%;}
+    to {left: 100%;}
+}
+
+/*
+ * Medias Queries 
+ * --------------------------------------
+ */
 
 @media (max-width: $media3){
 	footer{
@@ -122,15 +410,12 @@ footer{
 		}
 	}
 }
-
-
-
 @media (max-width: $media2){
 	header{
 		#navigation-bar{
 			&.nav-black{
 				.navbar-brand {
-				    padding: 13px 15px;
+				    padding: 15px 15px !important;
 				    height: 50px;
 				}
 			}
@@ -148,6 +433,49 @@ footer{
 		}
 	}
 
+	#app{
+		.page-title {
+		    margin: 30px 0;
+		    .title {
+	    	    .logo-page {
+		    	    width: 20px;
+		    	}
+		    	.text {
+	    		    font-size: 30px;
+	    		}
+	    	}
+	    	.call-to-action {
+	    	}
+		}
+	}
+
+	.table{
+		margin-bottom: 0 !important;
+		width:100% !important;
+		th,td{
+			text-align: center;
+			vertical-align:middle !important;
+			border: none !important;
+			font-size:12px !Important;
+		}
+		th{
+		}
+		td{
+			cursor:pointer;
+			.productMeta-made {
+			    font-size: 12px;
+			}
+
+			.tokenBrand-made {
+			}
+			.progressFraudScore{
+			}
+			.state-made{
+				font-size: 12px;
+			}
+		}
+	}
+
 	footer{
 		.col-footer{
 		}
@@ -161,5 +489,12 @@ footer{
 				}
 			}
 		}
+	}
+}
+@media (max-width: $media1){
+	.dataTables_wrapper .dataTables_info {
+	    float: none;
+	    width: 100%;
+	    margin-bottom: 20px;
 	}
 }

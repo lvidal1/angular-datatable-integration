@@ -1,9 +1,15 @@
-@include font-face("Microsoft", fonts/Microsoft);
-@include font-face("Bebas", fonts/Microsoft);
-@include font-face("Monofonto", fonts/Microsoft);
-@include font-face("Consolas", fonts/Microsoft);
-@include font-face("Gothic", fonts/Microsoft);
+@font-face {
+    font-family: 'GothamRounded-Light';
+    src: url(fonts/GothamRounded/GothamRounded-Light.eot);
+    src: local("GothamRounded-Light"), url(fonts/GothamRounded/GothamRounded-Light.ttf) format("truetype"), url(fonts/GothamRounded/GothamRounded-Light.otf) format("opentype"), url(fonts/GothamRounded/GothamRounded-Light.woff) format("woff")
+}
+@font-face {
+    font-family: 'GothamRounded-Book';
+    src: url(fonts/GothamRounded/GothamRounded-Book.eot);
+    src: local("GothamRounded-Book"), url(fonts/GothamRounded/GothamRounded-Book.ttf) format("truetype"), url(fonts/GothamRounded/GothamRounded-Book.otf) format("opentype"), url(fonts/GothamRounded/GothamRounded-Book.woff) format("woff")
+}
 
-body{
-	font-family: 'Microsoft';
+body {
+    height: 100%;
+    font-family: 'GothamRounded-Light',sans-serif;
 }
