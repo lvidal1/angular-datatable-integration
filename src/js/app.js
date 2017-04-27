@@ -1,6 +1,9 @@
 var testApp = angular.module('testApp', ['datatables'])
 testApp.controller('ServerSideProcessingCtrl', ServerSideProcessingCtrl);
 
+// ServerSideProcessingCtrl
+// Get registered credit/debit card data and render into Angular's datatable
+
 function ServerSideProcessingCtrl($scope, $compile, DTOptionsBuilder, DTColumnBuilder) {
 	// Initialize
 	var vm = this;
@@ -176,8 +179,8 @@ function ServerSideProcessingCtrl($scope, $compile, DTOptionsBuilder, DTColumnBu
     // Config datatable options
     vm.dtOptions = DTOptionsBuilder.newOptions()
         .withOption('ajax', {
-			url: 'ws.controller.php',
-			//url: 'data.json',
+			//url: 'ws.controller.php',
+			url: 'data.json',
 			type: 'POST'
     	})
     	.withDataProp('data')

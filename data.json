@@ -1,12 +1,12 @@
 {
   "draw": "1",
-  "recordsTotal": 100,
-  "recordsFiltered": 100,
+  "recordsTotal": 10,
+  "recordsFiltered": 10,
   "data": [
     {
       "duplicated": null,
       "id": null,
-      "amount": 19900,
+      "amount": 10000,
       "current_amount": 19900,
       "net_amount": null,
       "product_description": "Venta de prueba",

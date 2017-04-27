@@ -1,4 +1,5 @@
 <?php
+	//Deprecated !!
 	include("vendor/nategood/httpful/bootstrap.php");
 	// Get params
 	$POST_params = $_POST;
